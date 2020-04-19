@@ -4,6 +4,7 @@ version = "0.13.2"
 
 [deps]
 Blosc = "a74b3585-a348-5f62-a45c-50e91977d574"
+DiskArrays = "3c3547ce-8d99-4f5e-a174-61eb10b00ae3"
 HDF5_jll = "0234f1f7-429e-5d53-9886-15a909be8d59"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 Mmap = "a63ad114-7e13-5084-954f-fe012c677804"

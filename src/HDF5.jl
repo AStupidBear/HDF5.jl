@@ -2657,6 +2657,8 @@ const ASCII_ATTRIBUTE_PROPERTIES = Ref{HDF5Properties}()
 
 const DEFAULT_PROPERTIES = HDF5Properties(H5P_DEFAULT, false, H5P_DEFAULT)
 
+include("diskarray.jl")
+
 function __init__()
     check_deps()
 
